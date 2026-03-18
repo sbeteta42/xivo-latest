@@ -1,4 +1,5 @@
-![XiVO Logo](https://www.xivo.solutions/app/uploads/2024/09/Logo-XiVO.svg)) # XiVO Install Wrapper for Debian 12.13.0
+![XiVO Logo](https://www.xivo.solutions/app/uploads/2024/09/Logo-XiVO.svg)) 
+# XiVO Install Wrapper for Debian 12.13.0
 
 <p align="center">
   <img alt="Bash" src="https://img.shields.io/badge/Bash-Script-121011?logo=gnubash">
