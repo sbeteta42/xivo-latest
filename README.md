@@ -111,4 +111,4 @@ Avant d’exécuter le script, la machine cible doit être :
 
 ```bash
 .
-└── install_xivo.sh
+└── install_xivo_latest.sh
