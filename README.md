@@ -1,4 +1,8 @@
-![XiVO Logo](https://www.xivo.solutions/app/uploads/2024/09/Logo-XiVO.svg)) 
+<p align="center">
+  <a href="https://github.com/ton-utilisateur/ton-repo">
+    <img src="https://www.xivo.solutions/app/uploads/2024/09/Logo-XiVO.svg" alt="XiVO Install Wrapper" width="220">
+  </a>
+</p>
 # <h1 align="center">XiVO Install Wrapper for Debian 12.13.0 </h1>
 
 <p align="center">
