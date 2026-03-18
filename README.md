@@ -110,7 +110,6 @@ Avant d’exécuter le script, la machine cible doit être :
 ```bash
 git clone https://github.com/sbeteta42/xivo-latest.git
 cd xivo-latest
-# Exécuter le script d’installation
 chmod +x install_xivo_latest.sh
 ./install_xivo_latest.sh
 ```
