@@ -160,6 +160,8 @@ Ingénierie système, réseau et cybersécurité
 📧 sbeteta@beteta.org
 ---
 
-## 📜Licence
+## 📜Licence
+
 XiVO est un logiciel libre (distribué sous licence GNU GPLv3) d'autocommutateur téléphonique privé (PBX) ou IPBX. 
 XiVO utilise le logiciel libre Asterisk.
+---
