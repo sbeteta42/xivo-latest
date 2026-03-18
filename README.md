@@ -1,4 +1,4 @@
-# !(https://framalibre.org/images/logo/XiVO.jpg) XiVO Install Wrapper for Debian 12.13.0
+# ![(https://framalibre.org/images/logo/XiVO.jpg] XiVO Install Wrapper for Debian 12.13.0
 
 <p align="center">
   <img alt="Bash" src="https://img.shields.io/badge/Bash-Script-121011?logo=gnubash">
