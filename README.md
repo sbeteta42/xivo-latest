@@ -23,7 +23,7 @@ Script Bash d’installation automatisée de **XiVO PBX** sur **Debian 12**, ave
 
 ---
 
-## 📑 Sommaire
+## 📚 Sommaire
 
 - [Aperçu](#aperçu)
 - [Fonctionnalités](#fonctionnalités)
@@ -99,7 +99,7 @@ Le script :
 
 ---
 
-## 📦 Pré requis
+## 📋 Pré requis
 
 Avant d’exécuter le script, la machine cible doit être :
 
@@ -111,7 +111,7 @@ Avant d’exécuter le script, la machine cible doit être :
 - idéalement installée de manière **minimale et propre**
 
 ---
-## 🛠️  Installation
+## ⚙️ Installation
 ```bash
 git clone https://github.com/sbeteta42/xivo-latest.git
 cd xivo-latest
@@ -158,7 +158,7 @@ première version du wrapper
 - journalisation dans /var/log/xivo-install-wrapper.log
 ---
 
-## Auteur
+## 👨‍💻 Auteur
 
 ShadowHacker
 Ingénierie système, réseau et cybersécurité
