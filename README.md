@@ -1,4 +1,4 @@
-# XiVO Install Wrapper for Debian 12
+# XiVO Install Wrapper for Debian 12.13.0
 
 <p align="center">
   <img alt="Bash" src="https://img.shields.io/badge/Bash-Script-121011?logo=gnubash">
@@ -18,7 +18,7 @@ Script Bash d’installation automatisée de **XiVO PBX** sur **Debian 12**, ave
 
 ---
 
-## Sommaire
+## 📑 Sommaire
 
 - [Aperçu](#aperçu)
 - [Fonctionnalités](#fonctionnalités)
@@ -38,7 +38,7 @@ Script Bash d’installation automatisée de **XiVO PBX** sur **Debian 12**, ave
 
 ---
 
-## Aperçu
+## 🔍 Aperçu
 
 Ce dépôt fournit un **wrapper d’installation XiVO** pour **Debian 12 amd64**.
 
@@ -55,7 +55,7 @@ Le script :
 
 ---
 
-## Fonctionnalités
+## 🚀 Fonctionnalités
 
 ### Contrôles système
 - vérification de l’exécution en **root**
@@ -65,7 +65,7 @@ Le script :
 - vérification du système de fichiers racine
 - avertissement si la racine n’est pas en **ext4**
 
-### Préparation système
+### 🔧 Préparation système
 - vérification et génération du locale **`en_US.UTF-8`**
 - application du locale système
 - installation des paquets prérequis :
@@ -77,28 +77,28 @@ Le script :
   - `apt-transport-https`
   - `software-properties-common`
 
-### Contrôles réseau
+### 🌐 Contrôles réseau
 - détection de conflits potentiels avec les plages utilisées par XiVO :
   - `172.17.0.0/16`
   - `172.18.1.0/24`
 - avertissement si les interfaces ne sont pas en nommage **legacy `eth#`**
 
-### Déploiement XiVO
+### 🖥️ Déploiement XiVO
 - téléchargement du script officiel XiVO
 - exécution de l’installation avec version paramétrable
 - affichage d’un résumé de post-installation
 
-### Exploitation
+### 📊 Exploitation
 - journal d’exécution centralisé :
   - `/var/log/xivo-install-wrapper.log`
 
 ---
 
-## Pré requis
+## 🔐 Pré requis
 
 Avant d’exécuter le script, la machine cible doit être :
 
-- sous **Debian 12**
+- sous **Debian 12.13.0** minimum !
 - en **64 bits / amd64**
 - connectée à Internet
 - lancée avec un compte **root**
@@ -106,9 +106,58 @@ Avant d’exécuter le script, la machine cible doit être :
 - idéalement installée de manière **minimale et propre**
 
 ---
-
-## Fichiers du projet
-
+## ⚙️ Installation
 ```bash
-.
-└── install_xivo_latest.sh
+git clone https://github.com/sbeteta42/xivo-latest.git
+cd xivo-latest
+# Exécuter le script d’installation
+chmod +x install_xivo_latest.sh
+./install_xivo_latest.sh
+```
+---
+## Exemple de sortie console
+```bash
+[OK] Debian 12 détecté.
+[OK] Architecture amd64 détectée.
+[OK] Hostname valide: xivo
+[OK] Système de fichiers racine ext4.
+[INFO] Génération du locale en_US.UTF-8...
+[OK] Locale configuré en en_US.UTF-8.
+[ATTENTION] Les interfaces ne semblent pas en nommage legacy eth#
+[INFO] [1] Installation des prérequis...
+[OK] Prérequis installés.
+[INFO] [2] Téléchargement du script XiVO depuis https://mirror.xivo.solutions/xivo_install.sh ...
+[OK] Script XiVO téléchargé dans /root/xivo_install.sh
+[INFO] [3] Lancement de l’installation XiVO (2025.10-latest) ...
+[OK] Installation XiVO terminée.
+```
+---
+## 📚 Release notes
+v1.0.0
+
+première version du wrapper
+
+- validation Debian 12 / amd64
+
+- validation hostname
+
+- validation locale
+
+- détection des plages réseau XiVO sensibles
+
+- vérification du nommage des interfaces
+
+- installation des dépendances
+
+- téléchargement et exécution de l’installeur officiel XiVO
+
+- journalisation dans /var/log/xivo-install-wrapper.log
+---
+
+## Auteur
+
+ShadowHacker
+Ingénierie système, réseau et cybersécurité
+📧 sbeteta@beteta.org
+
+## 📜Licence
