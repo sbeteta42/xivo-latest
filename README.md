@@ -94,7 +94,7 @@ Le script :
 
 ---
 
-## 🔐 Pré requis
+## 📦 Pré requis
 
 Avant d’exécuter le script, la machine cible doit être :
 
@@ -106,7 +106,7 @@ Avant d’exécuter le script, la machine cible doit être :
 - idéalement installée de manière **minimale et propre**
 
 ---
-## ⚙️ Installation
+## 🛠️  Installation
 ```bash
 git clone https://github.com/sbeteta42/xivo-latest.git
 cd xivo-latest
@@ -114,7 +114,7 @@ chmod +x install_xivo_latest.sh
 ./install_xivo_latest.sh
 ```
 ---
-## Exemple de sortie console
+## 💡Exemple de sortie console
 ```bash
 [OK] Debian 12 détecté.
 [OK] Architecture amd64 détectée.
@@ -158,5 +158,8 @@ première version du wrapper
 ShadowHacker
 Ingénierie système, réseau et cybersécurité
 📧 sbeteta@beteta.org
+---
 
 ## 📜Licence
+XiVO est un logiciel libre (distribué sous licence GNU GPLv3) d'autocommutateur téléphonique privé (PBX) ou IPBX. 
+XiVO utilise le logiciel libre Asterisk.
